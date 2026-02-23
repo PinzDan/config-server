@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/course
     username: root
-    password: ""   # oppure rimuovi la riga se non usi password
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
