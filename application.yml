@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3306/course
+    url: jdbc:mysql://localhost:3305/course
     username: root
     password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
